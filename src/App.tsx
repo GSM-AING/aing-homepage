@@ -1,13 +1,15 @@
-import './App.css'
-
+import "./App.css";
+import { Header } from "./components/header";
+import { Banner } from "./components/banner";
 function App() {
   return (
     <>
       <div>
-        <a>시작</a>
-        </div>
+        <Header />
+        <Banner />
+      </div>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
